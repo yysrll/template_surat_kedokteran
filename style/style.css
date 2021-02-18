@@ -15,6 +15,14 @@
   font-size: 21px;
 }
 
+.pt-18 {
+  font-size: 24px;
+}
+
+.justify {
+  text-align: justify;
+}
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -71,7 +79,8 @@ hr {
 
 .kotak-ttd {
   position: relative;
-  height: 220px;
+  height: 230px;
+  margin-top: 10px;
 }
 
 .kotak-ttd .posisi-kanan {

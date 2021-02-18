@@ -15,6 +15,14 @@
     font-size: 21px;
 }
 
+.pt-18 {
+    font-size: 24px;
+}
+
+.justify {
+    text-align: justify;
+}
+
 
 .row {
     display: flex;
@@ -77,7 +85,8 @@ hr {
 // footer surat
 .kotak-ttd {
     position: relative;
-    height: 220px;
+    height: 230px;
+    margin-top: 10px;
     
     .posisi-kanan {
         position: absolute;
