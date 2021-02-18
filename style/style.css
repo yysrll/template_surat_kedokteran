@@ -1,0 +1,90 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.pt-14 {
+  font-size: 19px;
+}
+
+.pt-16 {
+  font-size: 21px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.row-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.kop {
+  text-align: center;
+}
+
+.logo {
+  height: 150px;
+  padding: 10px 10px 10px 0;
+}
+
+hr {
+  height: 1px;
+  color: #202020;
+  background-color: #202020;
+}
+
+.tanggal {
+  margin: 0;
+  right: 0px;
+  vertical-align: top;
+  position: absolute;
+}
+
+.table table, .table th, .table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.table-borderless table {
+  width: 100%;
+}
+
+.table-borderless th, .table-borderless td {
+  vertical-align: top;
+}
+
+.kotak-ttd {
+  position: relative;
+  height: 220px;
+}
+
+.kotak-ttd .posisi-kanan {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.kotak-ttd .tempat-ttd {
+  height: 70px;
+}
+
+.tembusan {
+  left: 16px;
+}
+/*# sourceMappingURL=style.css.map */
